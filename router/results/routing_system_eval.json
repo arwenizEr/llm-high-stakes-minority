@@ -1,0 +1,37 @@
+{
+  "n_test": 60,
+  "points": {
+    "always_cheap": {
+      "accuracy": 0.8666666666666667,
+      "cost_usd_per_q": 0.0079541,
+      "escalation_rate": 0.0
+    },
+    "always_frontier": {
+      "accuracy": 0.9166666666666666,
+      "cost_usd_per_q": 0.0179471,
+      "escalation_rate": 1.0
+    },
+    "oracle_router": {
+      "accuracy": 0.9333333333333333,
+      "cost_usd_per_q": 0.01881075,
+      "escalation_rate": 0.13333333333333333
+    },
+    "internal_router_not_unanimous": {
+      "accuracy": 0.9166666666666666,
+      "cost_usd_per_q": 0.019240900000000005,
+      "escalation_rate": 0.11666666666666667
+    },
+    "internal_router_all_disagree": {
+      "accuracy": 0.9166666666666666,
+      "cost_usd_per_q": 0.019240900000000005,
+      "escalation_rate": 0.11666666666666667
+    },
+    "surface_router": {
+      "accuracy": 0.8833333333333333,
+      "cost_usd_per_q": 0.014050700000000003,
+      "escalation_rate": 0.1
+    }
+  },
+  "internal_router_savings_frac_of_oracle": 1.4980605569385792,
+  "surface_router_savings_frac_of_oracle": -4.511549817634453
+}

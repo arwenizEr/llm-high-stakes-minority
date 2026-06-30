@@ -1,0 +1,902 @@
+[
+  {
+    "id": "bank_2307",
+    "in_test": true,
+    "cheap_correct": true,
+    "frontier_correct": true,
+    "cheap_cost": 0.0018269999999999998,
+    "frontier_cost": 0.00183,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_1700",
+    "in_test": true,
+    "cheap_correct": true,
+    "frontier_correct": true,
+    "cheap_cost": 0.0018539999999999997,
+    "frontier_cost": 0.0018570000000000001,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_521",
+    "in_test": true,
+    "cheap_correct": true,
+    "frontier_correct": false,
+    "cheap_cost": 0.0018239999999999997,
+    "frontier_cost": 0.0018269999999999998,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_223",
+    "in_test": true,
+    "cheap_correct": true,
+    "frontier_correct": true,
+    "cheap_cost": 0.0018510000000000002,
+    "frontier_cost": 0.0018539999999999997,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_26",
+    "in_test": true,
+    "cheap_correct": true,
+    "frontier_correct": true,
+    "cheap_cost": 0.0018639999999999998,
+    "frontier_cost": 0.001857,
+    "signal": 0.6666666666666666
+  },
+  {
+    "id": "bank_1995",
+    "in_test": true,
+    "cheap_correct": true,
+    "frontier_correct": true,
+    "cheap_cost": 0.0018839999999999998,
+    "frontier_cost": 0.0018869999999999998,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_1613",
+    "in_test": false,
+    "cheap_correct": true,
+    "frontier_correct": true,
+    "cheap_cost": 0.0018510000000000002,
+    "frontier_cost": 0.0018539999999999997,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_2641",
+    "in_test": false,
+    "cheap_correct": true,
+    "frontier_correct": true,
+    "cheap_cost": 0.001863,
+    "frontier_cost": 0.001866,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_2745",
+    "in_test": true,
+    "cheap_correct": false,
+    "frontier_correct": true,
+    "cheap_cost": 0.0019080000000000002,
+    "frontier_cost": 0.001911,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_1858",
+    "in_test": false,
+    "cheap_correct": false,
+    "frontier_correct": true,
+    "cheap_cost": 0.0018929999999999997,
+    "frontier_cost": 0.001896,
+    "signal": 0.6666666666666666
+  },
+  {
+    "id": "bank_1695",
+    "in_test": true,
+    "cheap_correct": false,
+    "frontier_correct": true,
+    "cheap_cost": 0.001853,
+    "frontier_cost": 0.001866,
+    "signal": 0.6666666666666666
+  },
+  {
+    "id": "bank_66",
+    "in_test": true,
+    "cheap_correct": true,
+    "frontier_correct": true,
+    "cheap_cost": 0.001843,
+    "frontier_cost": 0.0018360000000000002,
+    "signal": 0.6666666666666666
+  },
+  {
+    "id": "bank_2926",
+    "in_test": true,
+    "cheap_correct": true,
+    "frontier_correct": true,
+    "cheap_cost": 0.001917,
+    "frontier_cost": 0.00192,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_3074",
+    "in_test": false,
+    "cheap_correct": true,
+    "frontier_correct": true,
+    "cheap_cost": 0.0018269999999999998,
+    "frontier_cost": 0.00183,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_2581",
+    "in_test": true,
+    "cheap_correct": true,
+    "frontier_correct": true,
+    "cheap_cost": 0.001946,
+    "frontier_cost": 0.001959,
+    "signal": 0.6666666666666666
+  },
+  {
+    "id": "bank_3043",
+    "in_test": false,
+    "cheap_correct": true,
+    "frontier_correct": true,
+    "cheap_cost": 0.001857,
+    "frontier_cost": 0.00186,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_2865",
+    "in_test": false,
+    "cheap_correct": true,
+    "frontier_correct": true,
+    "cheap_cost": 0.001863,
+    "frontier_cost": 0.001866,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_1620",
+    "in_test": false,
+    "cheap_correct": false,
+    "frontier_correct": true,
+    "cheap_cost": 0.001818,
+    "frontier_cost": 0.0018510000000000002,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_631",
+    "in_test": false,
+    "cheap_correct": false,
+    "frontier_correct": false,
+    "cheap_cost": 0.001833,
+    "frontier_cost": 0.0018360000000000002,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_1679",
+    "in_test": true,
+    "cheap_correct": true,
+    "frontier_correct": true,
+    "cheap_cost": 0.001833,
+    "frontier_cost": 0.0018360000000000002,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_256",
+    "in_test": false,
+    "cheap_correct": true,
+    "frontier_correct": true,
+    "cheap_cost": 0.0018810000000000003,
+    "frontier_cost": 0.0018839999999999998,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_338",
+    "in_test": false,
+    "cheap_correct": true,
+    "frontier_correct": true,
+    "cheap_cost": 0.0018539999999999997,
+    "frontier_cost": 0.0018569999999999997,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_661",
+    "in_test": false,
+    "cheap_correct": true,
+    "frontier_correct": true,
+    "cheap_cost": 0.0018839999999999998,
+    "frontier_cost": 0.0018869999999999998,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_181",
+    "in_test": true,
+    "cheap_correct": true,
+    "frontier_correct": true,
+    "cheap_cost": 0.0018960000000000001,
+    "frontier_cost": 0.0018989999999999999,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_20",
+    "in_test": false,
+    "cheap_correct": true,
+    "frontier_correct": true,
+    "cheap_cost": 0.001839,
+    "frontier_cost": 0.001842,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_2813",
+    "in_test": false,
+    "cheap_correct": true,
+    "frontier_correct": true,
+    "cheap_cost": 0.001941,
+    "frontier_cost": 0.001944,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_1821",
+    "in_test": false,
+    "cheap_correct": false,
+    "frontier_correct": true,
+    "cheap_cost": 0.001869,
+    "frontier_cost": 0.001872,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_2909",
+    "in_test": false,
+    "cheap_correct": true,
+    "frontier_correct": true,
+    "cheap_cost": 0.001863,
+    "frontier_cost": 0.001866,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_2824",
+    "in_test": false,
+    "cheap_correct": true,
+    "frontier_correct": true,
+    "cheap_cost": 0.0019470000000000002,
+    "frontier_cost": 0.0019500000000000001,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_574",
+    "in_test": false,
+    "cheap_correct": true,
+    "frontier_correct": true,
+    "cheap_cost": 0.0018810000000000003,
+    "frontier_cost": 0.0018839999999999998,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_2551",
+    "in_test": true,
+    "cheap_correct": true,
+    "frontier_correct": true,
+    "cheap_cost": 0.001899,
+    "frontier_cost": 0.001902,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_975",
+    "in_test": true,
+    "cheap_correct": true,
+    "frontier_correct": true,
+    "cheap_cost": 0.0018239999999999997,
+    "frontier_cost": 0.0018269999999999998,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_2642",
+    "in_test": false,
+    "cheap_correct": true,
+    "frontier_correct": true,
+    "cheap_cost": 0.001857,
+    "frontier_cost": 0.00186,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_2219",
+    "in_test": false,
+    "cheap_correct": true,
+    "frontier_correct": true,
+    "cheap_cost": 0.0018780000000000001,
+    "frontier_cost": 0.0018809999999999999,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_492",
+    "in_test": true,
+    "cheap_correct": true,
+    "frontier_correct": true,
+    "cheap_cost": 0.00183,
+    "frontier_cost": 0.0018330000000000002,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_499",
+    "in_test": true,
+    "cheap_correct": true,
+    "frontier_correct": true,
+    "cheap_cost": 0.0018509999999999998,
+    "frontier_cost": 0.001854,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_2991",
+    "in_test": false,
+    "cheap_correct": true,
+    "frontier_correct": true,
+    "cheap_cost": 0.0019260000000000002,
+    "frontier_cost": 0.001929,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_1161",
+    "in_test": false,
+    "cheap_correct": true,
+    "frontier_correct": true,
+    "cheap_cost": 0.00186,
+    "frontier_cost": 0.001863,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_923",
+    "in_test": false,
+    "cheap_correct": true,
+    "frontier_correct": true,
+    "cheap_cost": 0.001875,
+    "frontier_cost": 0.001878,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_1636",
+    "in_test": false,
+    "cheap_correct": true,
+    "frontier_correct": true,
+    "cheap_cost": 0.001869,
+    "frontier_cost": 0.001872,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_63",
+    "in_test": false,
+    "cheap_correct": true,
+    "frontier_correct": true,
+    "cheap_cost": 0.0018269999999999998,
+    "frontier_cost": 0.00183,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_2114",
+    "in_test": false,
+    "cheap_correct": false,
+    "frontier_correct": true,
+    "cheap_cost": 0.001839,
+    "frontier_cost": 0.001902,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_2313",
+    "in_test": false,
+    "cheap_correct": true,
+    "frontier_correct": true,
+    "cheap_cost": 0.0019049999999999998,
+    "frontier_cost": 0.001908,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_277",
+    "in_test": false,
+    "cheap_correct": true,
+    "frontier_correct": true,
+    "cheap_cost": 0.0018900000000000002,
+    "frontier_cost": 0.001893,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_488",
+    "in_test": true,
+    "cheap_correct": true,
+    "frontier_correct": true,
+    "cheap_cost": 0.0018239999999999997,
+    "frontier_cost": 0.0018269999999999998,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_269",
+    "in_test": true,
+    "cheap_correct": true,
+    "frontier_correct": true,
+    "cheap_cost": 0.0018830000000000001,
+    "frontier_cost": 0.001881,
+    "signal": 0.6666666666666666
+  },
+  {
+    "id": "bank_1396",
+    "in_test": false,
+    "cheap_correct": true,
+    "frontier_correct": true,
+    "cheap_cost": 0.0018839999999999998,
+    "frontier_cost": 0.001887,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_829",
+    "in_test": false,
+    "cheap_correct": true,
+    "frontier_correct": true,
+    "cheap_cost": 0.0018810000000000003,
+    "frontier_cost": 0.0018839999999999998,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_2446",
+    "in_test": false,
+    "cheap_correct": true,
+    "frontier_correct": true,
+    "cheap_cost": 0.001968,
+    "frontier_cost": 0.001971,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_981",
+    "in_test": false,
+    "cheap_correct": true,
+    "frontier_correct": true,
+    "cheap_cost": 0.0018239999999999997,
+    "frontier_cost": 0.0018269999999999998,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_1016",
+    "in_test": false,
+    "cheap_correct": true,
+    "frontier_correct": true,
+    "cheap_cost": 0.001875,
+    "frontier_cost": 0.0018780000000000001,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_1374",
+    "in_test": false,
+    "cheap_correct": true,
+    "frontier_correct": true,
+    "cheap_cost": 0.001899,
+    "frontier_cost": 0.0019019999999999998,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_846",
+    "in_test": true,
+    "cheap_correct": true,
+    "frontier_correct": true,
+    "cheap_cost": 0.001944,
+    "frontier_cost": 0.001947,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_1744",
+    "in_test": false,
+    "cheap_correct": true,
+    "frontier_correct": true,
+    "cheap_cost": 0.001836,
+    "frontier_cost": 0.001839,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_1201",
+    "in_test": false,
+    "cheap_correct": true,
+    "frontier_correct": true,
+    "cheap_cost": 0.0018900000000000002,
+    "frontier_cost": 0.0018930000000000002,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_1475",
+    "in_test": false,
+    "cheap_correct": false,
+    "frontier_correct": false,
+    "cheap_cost": 0.001833,
+    "frontier_cost": 0.0018360000000000002,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_1442",
+    "in_test": true,
+    "cheap_correct": true,
+    "frontier_correct": true,
+    "cheap_cost": 0.00186,
+    "frontier_cost": 0.001863,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_880",
+    "in_test": false,
+    "cheap_correct": false,
+    "frontier_correct": false,
+    "cheap_cost": 0.001848,
+    "frontier_cost": 0.001851,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_2932",
+    "in_test": false,
+    "cheap_correct": true,
+    "frontier_correct": true,
+    "cheap_cost": 0.0019080000000000002,
+    "frontier_cost": 0.001911,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_1355",
+    "in_test": true,
+    "cheap_correct": false,
+    "frontier_correct": false,
+    "cheap_cost": 0.001869,
+    "frontier_cost": 0.001872,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_1924",
+    "in_test": false,
+    "cheap_correct": true,
+    "frontier_correct": true,
+    "cheap_cost": 0.001866,
+    "frontier_cost": 0.001869,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_1311",
+    "in_test": true,
+    "cheap_correct": true,
+    "frontier_correct": true,
+    "cheap_cost": 0.001886,
+    "frontier_cost": 0.0018839999999999998,
+    "signal": 0.6666666666666666
+  },
+  {
+    "id": "bank_1864",
+    "in_test": true,
+    "cheap_correct": false,
+    "frontier_correct": false,
+    "cheap_cost": 0.001833,
+    "frontier_cost": 0.0018360000000000002,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_1605",
+    "in_test": false,
+    "cheap_correct": true,
+    "frontier_correct": true,
+    "cheap_cost": 0.001857,
+    "frontier_cost": 0.00186,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_837",
+    "in_test": true,
+    "cheap_correct": true,
+    "frontier_correct": true,
+    "cheap_cost": 0.0018960000000000001,
+    "frontier_cost": 0.0018989999999999999,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_2199",
+    "in_test": true,
+    "cheap_correct": true,
+    "frontier_correct": true,
+    "cheap_cost": 0.00186,
+    "frontier_cost": 0.001863,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_189",
+    "in_test": false,
+    "cheap_correct": true,
+    "frontier_correct": true,
+    "cheap_cost": 0.001974,
+    "frontier_cost": 0.001977,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_1984",
+    "in_test": false,
+    "cheap_correct": true,
+    "frontier_correct": true,
+    "cheap_cost": 0.001866,
+    "frontier_cost": 0.001869,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_2209",
+    "in_test": false,
+    "cheap_correct": false,
+    "frontier_correct": false,
+    "cheap_cost": 0.001974,
+    "frontier_cost": 0.001977,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_2151",
+    "in_test": true,
+    "cheap_correct": true,
+    "frontier_correct": true,
+    "cheap_cost": 0.0018269999999999998,
+    "frontier_cost": 0.00183,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_1327",
+    "in_test": false,
+    "cheap_correct": false,
+    "frontier_correct": false,
+    "cheap_cost": 0.0018269999999999998,
+    "frontier_cost": 0.00186,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_1464",
+    "in_test": false,
+    "cheap_correct": true,
+    "frontier_correct": true,
+    "cheap_cost": 0.00186,
+    "frontier_cost": 0.001863,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_727",
+    "in_test": false,
+    "cheap_correct": true,
+    "frontier_correct": true,
+    "cheap_cost": 0.001875,
+    "frontier_cost": 0.001878,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_2111",
+    "in_test": false,
+    "cheap_correct": false,
+    "frontier_correct": true,
+    "cheap_cost": 0.00183,
+    "frontier_cost": 0.0018930000000000002,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_2504",
+    "in_test": true,
+    "cheap_correct": true,
+    "frontier_correct": true,
+    "cheap_cost": 0.0018539999999999997,
+    "frontier_cost": 0.0018569999999999997,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_762",
+    "in_test": false,
+    "cheap_correct": true,
+    "frontier_correct": true,
+    "cheap_cost": 0.0019190000000000001,
+    "frontier_cost": 0.0019320000000000001,
+    "signal": 0.6666666666666666
+  },
+  {
+    "id": "bank_1398",
+    "in_test": true,
+    "cheap_correct": true,
+    "frontier_correct": true,
+    "cheap_cost": 0.001863,
+    "frontier_cost": 0.001866,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_395",
+    "in_test": false,
+    "cheap_correct": true,
+    "frontier_correct": true,
+    "cheap_cost": 0.001875,
+    "frontier_cost": 0.001878,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_522",
+    "in_test": true,
+    "cheap_correct": true,
+    "frontier_correct": true,
+    "cheap_cost": 0.001839,
+    "frontier_cost": 0.001842,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_2113",
+    "in_test": true,
+    "cheap_correct": false,
+    "frontier_correct": false,
+    "cheap_cost": 0.0018149999999999998,
+    "frontier_cost": 0.0018479999999999998,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_994",
+    "in_test": false,
+    "cheap_correct": true,
+    "frontier_correct": true,
+    "cheap_cost": 0.0018239999999999997,
+    "frontier_cost": 0.0018269999999999998,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_2309",
+    "in_test": true,
+    "cheap_correct": false,
+    "frontier_correct": false,
+    "cheap_cost": 0.001848,
+    "frontier_cost": 0.0018210000000000001,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_2907",
+    "in_test": true,
+    "cheap_correct": true,
+    "frontier_correct": true,
+    "cheap_cost": 0.0018839999999999998,
+    "frontier_cost": 0.0018869999999999998,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_333",
+    "in_test": false,
+    "cheap_correct": false,
+    "frontier_correct": false,
+    "cheap_cost": 0.001959,
+    "frontier_cost": 0.0018869999999999998,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_2647",
+    "in_test": false,
+    "cheap_correct": true,
+    "frontier_correct": true,
+    "cheap_cost": 0.0018539999999999997,
+    "frontier_cost": 0.0018569999999999997,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_366",
+    "in_test": true,
+    "cheap_correct": true,
+    "frontier_correct": true,
+    "cheap_cost": 0.0018539999999999997,
+    "frontier_cost": 0.0018569999999999997,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_768",
+    "in_test": true,
+    "cheap_correct": true,
+    "frontier_correct": true,
+    "cheap_cost": 0.002004,
+    "frontier_cost": 0.0020069999999999997,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_11",
+    "in_test": false,
+    "cheap_correct": false,
+    "frontier_correct": false,
+    "cheap_cost": 0.001857,
+    "frontier_cost": 0.00186,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_3042",
+    "in_test": true,
+    "cheap_correct": true,
+    "frontier_correct": true,
+    "cheap_cost": 0.0018449999999999999,
+    "frontier_cost": 0.001848,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_2092",
+    "in_test": false,
+    "cheap_correct": false,
+    "frontier_correct": false,
+    "cheap_cost": 0.001863,
+    "frontier_cost": 0.001866,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_3057",
+    "in_test": false,
+    "cheap_correct": true,
+    "frontier_correct": true,
+    "cheap_cost": 0.0018509999999999998,
+    "frontier_cost": 0.001854,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_883",
+    "in_test": false,
+    "cheap_correct": false,
+    "frontier_correct": false,
+    "cheap_cost": 0.001886,
+    "frontier_cost": 0.0018839999999999998,
+    "signal": 0.6666666666666666
+  },
+  {
+    "id": "bank_1205",
+    "in_test": false,
+    "cheap_correct": true,
+    "frontier_correct": true,
+    "cheap_cost": 0.0018900000000000002,
+    "frontier_cost": 0.0018930000000000002,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_2325",
+    "in_test": true,
+    "cheap_correct": true,
+    "frontier_correct": true,
+    "cheap_cost": 0.001866,
+    "frontier_cost": 0.001869,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_648",
+    "in_test": false,
+    "cheap_correct": true,
+    "frontier_correct": true,
+    "cheap_cost": 0.001866,
+    "frontier_cost": 0.001869,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_821",
+    "in_test": true,
+    "cheap_correct": false,
+    "frontier_correct": true,
+    "cheap_cost": 0.001907,
+    "frontier_cost": 0.00189,
+    "signal": 0.6666666666666666
+  },
+  {
+    "id": "bank_2860",
+    "in_test": false,
+    "cheap_correct": true,
+    "frontier_correct": true,
+    "cheap_cost": 0.001848,
+    "frontier_cost": 0.0018510000000000002,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_1934",
+    "in_test": true,
+    "cheap_correct": true,
+    "frontier_correct": true,
+    "cheap_cost": 0.001869,
+    "frontier_cost": 0.001872,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_302",
+    "in_test": false,
+    "cheap_correct": true,
+    "frontier_correct": true,
+    "cheap_cost": 0.001866,
+    "frontier_cost": 0.001869,
+    "signal": 1.0
+  },
+  {
+    "id": "bank_1244",
+    "in_test": true,
+    "cheap_correct": false,
+    "frontier_correct": false,
+    "cheap_cost": 0.0018419999999999999,
+    "frontier_cost": 0.00183,
+    "signal": 1.0
+  }
+]

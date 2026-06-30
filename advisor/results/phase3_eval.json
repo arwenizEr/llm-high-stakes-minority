@@ -1,0 +1,105 @@
+{
+  "date": "2026-06-29",
+  "frozen_threshold": 0.5,
+  "models": {
+    "A": "claude-haiku-4-5",
+    "B": "gpt-4o-mini",
+    "frontier": "claude-sonnet-4-6"
+  },
+  "table": [
+    {
+      "workload": "arc_challenge",
+      "held_out": false,
+      "n": 120,
+      "disagree_rate": 0.09166666666666666,
+      "pred_go_eligible": true,
+      "realized_go": 1.0,
+      "gated_acc": 0.9666666666666667,
+      "frontier_acc": 0.9416666666666667,
+      "gated_cost_mq": 0.17443416666666667,
+      "frontier_cost_mq": 0.3453,
+      "rule_correct": 1.0
+    },
+    {
+      "workload": "gsm8k",
+      "held_out": false,
+      "n": 120,
+      "disagree_rate": 0.225,
+      "pred_go_eligible": true,
+      "realized_go": 1.0,
+      "gated_acc": 0.9583333333333334,
+      "frontier_acc": 0.9583333333333334,
+      "gated_cost_mq": 1.4468675,
+      "frontier_cost_mq": 1.6058000000000001,
+      "rule_correct": 1.0
+    },
+    {
+      "workload": "squad",
+      "held_out": false,
+      "n": 120,
+      "disagree_rate": 0.25,
+      "pred_go_eligible": true,
+      "realized_go": 1.0,
+      "gated_acc": 0.925,
+      "frontier_acc": 0.8666666666666667,
+      "gated_cost_mq": 0.5072154166666667,
+      "frontier_cost_mq": 0.783,
+      "rule_correct": 1.0
+    },
+    {
+      "workload": "math",
+      "held_out": false,
+      "n": 200,
+      "disagree_rate": 0.865,
+      "pred_go_eligible": false,
+      "realized_go": 0.0,
+      "gated_acc": 0.92,
+      "frontier_acc": 0.91,
+      "gated_cost_mq": 15.58389475,
+      "frontier_cost_mq": 13.052070000000002,
+      "rule_correct": 1.0
+    },
+    {
+      "workload": "boolq",
+      "held_out": true,
+      "n": 80,
+      "disagree_rate": 0.0625,
+      "pred_go_eligible": true,
+      "realized_go": 1.0,
+      "gated_acc": 0.9,
+      "frontier_acc": 0.9,
+      "gated_cost_mq": 0.278336875,
+      "frontier_cost_mq": 0.597975,
+      "rule_correct": 1.0
+    },
+    {
+      "workload": "csqa",
+      "held_out": true,
+      "n": 80,
+      "disagree_rate": 0.1625,
+      "pred_go_eligible": true,
+      "realized_go": 1.0,
+      "gated_acc": 0.8125,
+      "frontier_acc": 0.825,
+      "gated_cost_mq": 0.145791875,
+      "frontier_cost_mq": 0.2659125,
+      "rule_correct": 1.0
+    },
+    {
+      "workload": "aime",
+      "held_out": true,
+      "n": 30,
+      "disagree_rate": 1.0,
+      "pred_go_eligible": false,
+      "realized_go": 0.0,
+      "gated_acc": 0.23333333333333334,
+      "frontier_acc": 0.23333333333333334,
+      "gated_cost_mq": 9.800223333333332,
+      "frontier_cost_mq": 6.779799999999999,
+      "rule_correct": 1.0
+    }
+  ],
+  "H1_pass": true,
+  "H2_pass": true,
+  "H3_pass": true
+}

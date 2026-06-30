@@ -1,0 +1,18 @@
+{
+  "workload": "math",
+  "n": 200,
+  "minority_size": 0.13,
+  "minority_count": 26,
+  "mean_frontier_cost": 0.013052069999999997,
+  "mean_cheap_cost": 0.008421594999999999,
+  "cost_gap_g": 1.5498334935365567,
+  "tail_cost_concentration_C": 2.1838976204835414,
+  "cheap_wrong_frac_w": 0.195,
+  "escalation_concentration_Cw": 2.6497653687823535,
+  "Cw_max_threshold": 1.8193302396497746,
+  "C_max_threshold": 1.8193302396497746,
+  "concentration_go": false,
+  "signal_recall_cv": 0.7307692307692307,
+  "signal_recall_threshold": 0.7307692307692307,
+  "signal_precision_threshold": 0.4318181818181818
+}

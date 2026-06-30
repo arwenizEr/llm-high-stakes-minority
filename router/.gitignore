@@ -1,0 +1,4 @@
+cache/
+data/*.arrow
+__pycache__/
+.env

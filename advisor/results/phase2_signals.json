@@ -1,0 +1,51 @@
+{
+  "minority": 26,
+  "confident_error_subset": 7,
+  "signals": {
+    "selfcons_k3": {
+      "flag_count": 44,
+      "recall_minority": 0.7307692307692307,
+      "precision": 0.4318181818181818,
+      "recall_confident_error": 0.0,
+      "ce_caught": 0,
+      "ce_total": 7,
+      "cheap_calls": 3
+    },
+    "selfcons_k2": {
+      "flag_count": 44,
+      "recall_minority": 0.7307692307692307,
+      "precision": 0.4318181818181818,
+      "recall_confident_error": 0.0,
+      "ce_caught": 0,
+      "ce_total": 7,
+      "cheap_calls": 2
+    },
+    "verbalized": {
+      "flag_count": 44,
+      "recall_minority": 0.6538461538461539,
+      "precision": 0.38636363636363635,
+      "recall_confident_error": 0.14285714285714285,
+      "ce_caught": 1,
+      "ce_total": 7,
+      "cheap_calls": 1
+    },
+    "selfverify": {
+      "flag_count": 31,
+      "recall_minority": 0.4230769230769231,
+      "precision": 0.3548387096774194,
+      "recall_confident_error": 0.2857142857142857,
+      "ce_caught": 2,
+      "ce_total": 7,
+      "cheap_calls": 1
+    },
+    "combined_verb_or_verify": {
+      "flag_count": 60,
+      "recall_minority": 0.7307692307692307,
+      "precision": 0.31666666666666665,
+      "recall_confident_error": 0.42857142857142855,
+      "ce_caught": 3,
+      "ce_total": 7,
+      "cheap_calls": 2
+    }
+  }
+}

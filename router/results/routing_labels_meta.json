@@ -1,0 +1,14 @@
+{
+  "cheap_model": "claude-haiku-4-5",
+  "frontier": "sonnet-4-6 effort=high (cached)",
+  "k": 3,
+  "temperature": 0.8,
+  "signal": "self_consistency (no logprobs on Anthropic API)",
+  "n": 200,
+  "minority_n": 26,
+  "minority_frac": 0.13,
+  "cell_both_right": 156,
+  "cell_both_wrong": 13,
+  "cell_minority_cheapwrong_frontierright": 26,
+  "cell_cheapright_frontierwrong": 5
+}

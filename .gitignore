@@ -1,0 +1,24 @@
+# --- secrets: NEVER commit ---
+**/.env
+.env
+*.key
+
+# --- API response caches (large, fully regenerable from code) ---
+**/cache/
+
+# --- local model / embedding / dataset caches ---
+**/data/*.npz
+**/data/llmlingua_cache/
+**/data/embeddings_meta.json
+**/*.arrow
+
+# --- python ---
+**/__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# --- scratch / temp ---
+*.tmp
+*.log
+scratchpad/

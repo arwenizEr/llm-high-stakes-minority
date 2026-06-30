@@ -1,0 +1,18 @@
+{
+  "workload": "banking77",
+  "n": 100,
+  "minority_size": 0.08,
+  "minority_count": 8,
+  "mean_frontier_cost": 0.00187464,
+  "mean_cheap_cost": 0.0018709900000000001,
+  "cost_gap_g": 1.00195083886071,
+  "tail_cost_concentration_C": 1.005593073870183,
+  "cheap_wrong_frac_w": 0.22,
+  "escalation_concentration_Cw": 0.9976460935044984,
+  "Cw_max_threshold": 0.008850184083828124,
+  "C_max_threshold": 0.008850184083828124,
+  "concentration_go": false,
+  "signal_recall_cv": 0.375,
+  "signal_recall_threshold": 0.375,
+  "signal_precision_threshold": 0.3
+}

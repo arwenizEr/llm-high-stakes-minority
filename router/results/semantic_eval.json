@@ -1,0 +1,167 @@
+{
+  "embedding_model": "all-MiniLM-L6-v2",
+  "seed": 1234,
+  "test_label_distribution": {
+    "low": 51,
+    "medium": 4,
+    "high": 5
+  },
+  "classifier_metrics": {
+    "logreg_balanced": {
+      "name": "logreg_balanced",
+      "test_accuracy": 0.6833333333333333,
+      "confusion_matrix": {
+        "labels": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "matrix": [
+          [
+            41,
+            4,
+            6
+          ],
+          [
+            4,
+            0,
+            0
+          ],
+          [
+            4,
+            1,
+            0
+          ]
+        ]
+      },
+      "hard_recall": 0.1111111111111111,
+      "hard_caught": 1,
+      "n_hard": 9,
+      "pred_hist": {
+        "low": 49,
+        "medium": 5,
+        "high": 6
+      }
+    },
+    "mlp": {
+      "name": "mlp",
+      "test_accuracy": 0.8333333333333334,
+      "confusion_matrix": {
+        "labels": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "matrix": [
+          [
+            50,
+            0,
+            1
+          ],
+          [
+            4,
+            0,
+            0
+          ],
+          [
+            5,
+            0,
+            0
+          ]
+        ]
+      },
+      "hard_recall": 0.0,
+      "hard_caught": 0,
+      "n_hard": 9,
+      "pred_hist": {
+        "low": 59,
+        "medium": 0,
+        "high": 1
+      }
+    }
+  },
+  "baselines_test": {
+    "low": {
+      "accuracy": 0.85,
+      "mean_output_tokens": 498.6333333333333,
+      "n": 60,
+      "budget_histogram": {
+        "low": 60,
+        "medium": 0,
+        "high": 0
+      }
+    },
+    "medium": {
+      "accuracy": 0.9,
+      "mean_output_tokens": 923.1333333333333,
+      "n": 60,
+      "budget_histogram": {
+        "low": 0,
+        "medium": 60,
+        "high": 0
+      }
+    },
+    "high": {
+      "accuracy": 0.9166666666666666,
+      "mean_output_tokens": 1171.3,
+      "n": 60,
+      "budget_histogram": {
+        "low": 0,
+        "medium": 0,
+        "high": 60
+      }
+    }
+  },
+  "oracle_router_ref": {
+    "accuracy": 0.933,
+    "mean_output_tokens": 543.0
+  },
+  "always_low": {
+    "accuracy": 0.85,
+    "mean_output_tokens": 498.6333333333333,
+    "n": 60,
+    "budget_histogram": {
+      "low": 60,
+      "medium": 0,
+      "high": 0
+    }
+  },
+  "semantic_routers": {
+    "logreg_balanced": {
+      "accuracy": 0.85,
+      "mean_output_tokens": 595.5,
+      "n": 60,
+      "budget_histogram": {
+        "low": 49,
+        "medium": 5,
+        "high": 6
+      }
+    },
+    "mlp": {
+      "accuracy": 0.85,
+      "mean_output_tokens": 508.3833333333333,
+      "n": 60,
+      "budget_histogram": {
+        "low": 59,
+        "medium": 0,
+        "high": 1
+      }
+    }
+  },
+  "bar_check_beat_always_low": {
+    "logreg_balanced": {
+      "router_accuracy": 0.85,
+      "router_mean_tokens": 595.5,
+      "baseline_acc_at_router_tokens": 0.8614095013741657,
+      "above_baseline_line": -0.011409501374165743,
+      "beats_always_low": false
+    },
+    "mlp": {
+      "router_accuracy": 0.85,
+      "router_mean_tokens": 508.3833333333333,
+      "baseline_acc_at_router_tokens": 0.8511484098939929,
+      "above_baseline_line": -0.0011484098939928966,
+      "beats_always_low": false
+    }
+  }
+}

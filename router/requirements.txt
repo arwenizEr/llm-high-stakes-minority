@@ -1,0 +1,8 @@
+anthropic
+datasets
+sympy>=1.13
+lark
+scikit-learn
+matplotlib
+pandas
+numpy

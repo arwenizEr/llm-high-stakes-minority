@@ -1,0 +1,72 @@
+{
+  "seed": 1234,
+  "label_definition": "min budget that solved the problem; unsolved->high",
+  "label_distribution": {
+    "low": 171,
+    "medium": 13,
+    "high": 16
+  },
+  "n_train": 140,
+  "n_test": 60,
+  "learned_test_accuracy": 0.8166666666666667,
+  "learned_confusion_matrix": {
+    "labels": [
+      "low",
+      "medium",
+      "high"
+    ],
+    "matrix": [
+      [
+        49,
+        2,
+        0
+      ],
+      [
+        4,
+        0,
+        0
+      ],
+      [
+        5,
+        0,
+        0
+      ]
+    ]
+  },
+  "learned_classification_report": {
+    "low": {
+      "precision": 0.8448275862068966,
+      "recall": 0.9607843137254902,
+      "f1-score": 0.8990825688073395,
+      "support": 51.0
+    },
+    "medium": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "high": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 5.0
+    },
+    "accuracy": 0.8166666666666667,
+    "macro avg": {
+      "precision": 0.28160919540229884,
+      "recall": 0.32026143790849676,
+      "f1-score": 0.2996941896024465,
+      "support": 60.0
+    },
+    "weighted avg": {
+      "precision": 0.718103448275862,
+      "recall": 0.8166666666666667,
+      "f1-score": 0.7642201834862387,
+      "support": 60.0
+    }
+  },
+  "heuristic_level_test_accuracy": 0.45,
+  "heuristic_text_test_accuracy": 0.8166666666666667,
+  "misclassification_cost_note": "Costs are asymmetric. Predicting hard->low loses accuracy (the problem needed more budget); predicting easy->high only wastes tokens. A good predictor should bias toward over-budgeting borderline cases."
+}

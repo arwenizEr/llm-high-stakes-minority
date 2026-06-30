@@ -1,0 +1,80 @@
+{
+  "baselines": {
+    "low": {
+      "accuracy": 0.85,
+      "mean_output_tokens": 498.6333333333333,
+      "n": 60,
+      "budget_histogram": {
+        "low": 60,
+        "medium": 0,
+        "high": 0
+      }
+    },
+    "medium": {
+      "accuracy": 0.9,
+      "mean_output_tokens": 923.1333333333333,
+      "n": 60,
+      "budget_histogram": {
+        "low": 0,
+        "medium": 60,
+        "high": 0
+      }
+    },
+    "high": {
+      "accuracy": 0.9166666666666666,
+      "mean_output_tokens": 1171.3,
+      "n": 60,
+      "budget_histogram": {
+        "low": 0,
+        "medium": 0,
+        "high": 60
+      }
+    }
+  },
+  "routers": {
+    "heuristic": {
+      "accuracy": 0.9166666666666666,
+      "mean_output_tokens": 913.65,
+      "n": 60,
+      "budget_histogram": {
+        "low": 26,
+        "medium": 11,
+        "high": 23
+      }
+    },
+    "learned": {
+      "accuracy": 0.85,
+      "mean_output_tokens": 498.6666666666667,
+      "n": 60,
+      "budget_histogram": {
+        "low": 58,
+        "medium": 2,
+        "high": 0
+      }
+    }
+  },
+  "oracle": {
+    "accuracy": 0.9333333333333333,
+    "mean_output_tokens": 542.7,
+    "n": 60,
+    "budget_histogram": {
+      "low": 55,
+      "medium": 4,
+      "high": 1
+    }
+  },
+  "heuristic_vs_high": {
+    "tokens_saved_per_problem": 257.65,
+    "tokens_saved_pct": 21.99692649193204,
+    "accuracy_lost_vs_high": 0.0,
+    "baseline_accuracy_at_same_tokens": 0.8988829996073813,
+    "router_accuracy_above_baseline_line": 0.017783667059285357
+  },
+  "learned_vs_high": {
+    "tokens_saved_per_problem": 672.6333333333332,
+    "tokens_saved_pct": 57.42622157716496,
+    "accuracy_lost_vs_high": 0.06666666666666665,
+    "baseline_accuracy_at_same_tokens": 0.8500039261876717,
+    "router_accuracy_above_baseline_line": -3.926187671754455e-06
+  }
+}

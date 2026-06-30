@@ -1,0 +1,21 @@
+{
+  "seed": 1234,
+  "k": 3,
+  "temperature": 0.8,
+  "cheap_model": "claude-haiku-4-5",
+  "frontier_model": "claude-sonnet-4-6",
+  "pricing_per_mtok": {
+    "claude-haiku-4-5": {"input": 1.0, "output": 5.0},
+    "claude-sonnet-4-6": {"input": 3.0, "output": 15.0},
+    "gpt-4o-mini": {"input": 0.15, "output": 0.60}
+  },
+  "openai_model": "gpt-4o-mini",
+  "price_snapshot_date": "2026-06-29",
+  "banking77_n": 100,
+  "math_n": 200,
+  "phase1_n": 50,
+  "phase25_n": 120,
+  "cost_ceiling_usd": 8.0,
+  "concurrency": 4,
+  "concentration_note": "GO if C < C_max = (1 - 1/g)/r, g=frontier/cheap cost ratio, r=minority frac; C = mean frontier cost in minority / mean frontier cost overall"
+}

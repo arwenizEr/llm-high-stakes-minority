@@ -1,0 +1,10 @@
+{
+  "dataset": "hotpotqa/hotpot_qa",
+  "config": "distractor",
+  "split": "validation",
+  "seed": 1234,
+  "n": 200,
+  "mean_context_words": 923.975,
+  "median_context_words": 891.5,
+  "mean_paragraphs": 9.96
+}

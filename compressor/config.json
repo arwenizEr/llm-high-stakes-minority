@@ -1,0 +1,20 @@
+{
+  "model": "claude-haiku-4-5",
+  "seed": 1234,
+  "sample_size": 200,
+  "max_tokens": 100,
+  "rates": [0.2, 0.3, 0.5],
+  "rates_full_spec": [0.1, 0.2, 0.3, 0.5, 0.7],
+  "rates_note": "trimmed from 5 to 3 to fit remaining ~$7.6 budget (auto-shrink)",
+  "pricing_per_mtok": {
+    "claude-haiku-4-5": {"input": 1.0, "output": 5.0},
+    "claude-sonnet-4-6": {"input": 3.0, "output": 15.0}
+  },
+  "cost_ceiling_usd": 7.0,
+  "concurrency": 4,
+  "dataset": "hotpotqa/hotpot_qa",
+  "dataset_config": "distractor",
+  "dataset_split": "validation",
+  "label_train_n": 40,
+  "label_ceiling_usd": 2.5
+}

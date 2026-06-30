@@ -1,0 +1,10 @@
+{
+  "granularity": "sentence",
+  "n_questions": 29,
+  "n_spans": 1112,
+  "droppable": 1001,
+  "load_bearing": 111,
+  "droppable_frac": 0.9001798561151079,
+  "est_cost_usd": 1.804776,
+  "per_call_usd": 0.0016229999999999999
+}

@@ -1,0 +1,19 @@
+{
+  "note": "robust all-200 minority recall (test-60 N=4 too small)",
+  "minority_n": 26,
+  "minority_frac": 0.13,
+  "surface_embeddings_5fold_cv": {
+    "recall": 0.5,
+    "precision": 0.29,
+    "tp": 13,
+    "of": 26
+  },
+  "internal_not_unanimous": {
+    "recall": 0.73,
+    "precision": 0.43,
+    "tp": 19,
+    "of": 26,
+    "flagged": 44
+  },
+  "blind_spot": "7/26 minority are unanimous-but-wrong (confident error, self-consistency cannot flag)"
+}

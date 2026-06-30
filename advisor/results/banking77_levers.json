@@ -1,0 +1,26 @@
+{
+  "always_cheap": {
+    "accuracy": 0.8,
+    "cost_per_q": 0.0018669,
+    "tail_accuracy": 0.0,
+    "escalation_rate": 0.0
+  },
+  "always_frontier": {
+    "accuracy": 0.85,
+    "cost_per_q": 0.001868775,
+    "tail_accuracy": 1.0,
+    "escalation_rate": 1.0
+  },
+  "gated_escalation": {
+    "accuracy": 0.85,
+    "cost_per_q": 0.002196225,
+    "tail_accuracy": 0.6666666666666666,
+    "escalation_rate": 0.175
+  },
+  "oracle": {
+    "accuracy": 0.875,
+    "cost_per_q": 0.0022387500000000003,
+    "tail_accuracy": 1.0,
+    "escalation_rate": 0.2
+  }
+}

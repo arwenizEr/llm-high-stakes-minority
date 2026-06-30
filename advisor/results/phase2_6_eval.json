@@ -1,0 +1,75 @@
+{
+  "date": "2026-06-29",
+  "model_B": "Qwen/Qwen2.5-1.5B-Instruct",
+  "caveat": "B is a 1.5B local model, weaker than haiku; not comparably capable",
+  "H1": {
+    "ce_n": 28,
+    "caught": 24,
+    "recall": 0.8571428571428571,
+    "ci95": [
+      0.6850982695512267,
+      0.9430108706929821
+    ],
+    "incumbent_selfverify": 0.21
+  },
+  "H2": {
+    "error_overlap_B_also_wrong": 0.7857142857142857,
+    "ce_n": 28,
+    "b_right_on_ce": 6,
+    "of_those_disagreement_fired": 6
+  },
+  "H3": [
+    {
+      "workload": "gsm8k",
+      "n": 33,
+      "g": 1.9439403758911211,
+      "C_w": 1.007890203922876,
+      "C_w_max": 5.341390231705284,
+      "escalation_rate": 0.7575757575757576,
+      "gated_acc": 0.9090909090909091,
+      "frontier_acc": 0.9090909090909091,
+      "predicted_go": true,
+      "realized_go": false,
+      "match": false
+    },
+    {
+      "workload": "arc_challenge",
+      "n": 34,
+      "g": 2.848973607038123,
+      "C_w": 1.1916623777663407,
+      "C_w_max": 4.413175501801338,
+      "escalation_rate": 0.8529411764705882,
+      "gated_acc": 0.9411764705882353,
+      "frontier_acc": 0.9411764705882353,
+      "predicted_go": true,
+      "realized_go": false,
+      "match": false
+    },
+    {
+      "workload": "squad",
+      "n": 39,
+      "g": 2.8898061404322424,
+      "C_w": 1.0185523992938532,
+      "C_w_max": 2.833809447386722,
+      "escalation_rate": 0.358974358974359,
+      "gated_acc": 0.7948717948717948,
+      "frontier_acc": 0.7692307692307693,
+      "predicted_go": true,
+      "realized_go": true,
+      "match": true
+    },
+    {
+      "workload": "math",
+      "n": 42,
+      "g": 5.758806080830552,
+      "C_w": 1.8735754756462677,
+      "C_w_max": 2.1691763512860964,
+      "escalation_rate": 1.0,
+      "gated_acc": 0.8571428571428571,
+      "frontier_acc": 0.8571428571428571,
+      "predicted_go": true,
+      "realized_go": false,
+      "match": false
+    }
+  ]
+}

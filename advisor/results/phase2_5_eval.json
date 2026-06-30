@@ -1,0 +1,82 @@
+{
+  "date": "2026-06-29",
+  "models": {
+    "cheap": "claude-haiku-4-5",
+    "frontier": "claude-sonnet-4-6"
+  },
+  "H1": {
+    "ce_n": 28,
+    "caught": 6,
+    "recall": 0.21428571428571427,
+    "ci95": [
+      0.10212321701189421,
+      0.39538947079273873
+    ]
+  },
+  "H2": {
+    "format": {
+      "caught": 2,
+      "n": 15,
+      "recall": 0.13333333333333333,
+      "ci95": [
+        0.037360469891359285,
+        0.3788249920651624
+      ]
+    },
+    "non_format": {
+      "caught": 4,
+      "n": 13,
+      "recall": 0.3076923076923077,
+      "ci95": [
+        0.1268049716161809,
+        0.5763111218666236
+      ]
+    }
+  },
+  "H3": [
+    {
+      "workload": "gsm8k",
+      "n": 120,
+      "g": 0.5860637414574951,
+      "w": 0.03333333333333333,
+      "C_w": 1.0999190434674304,
+      "C_w_max": 0.0,
+      "predicted_go": false,
+      "realized_go": false,
+      "match": true
+    },
+    {
+      "workload": "arc_challenge",
+      "n": 120,
+      "g": 0.6530290613377041,
+      "w": 0.06666666666666667,
+      "C_w": 1.1490008688097306,
+      "C_w_max": 0.0,
+      "predicted_go": false,
+      "realized_go": false,
+      "match": true
+    },
+    {
+      "workload": "squad",
+      "n": 120,
+      "g": 0.7175750910715514,
+      "w": 0.13333333333333333,
+      "C_w": 0.9985632183908045,
+      "C_w_max": 0.0,
+      "predicted_go": false,
+      "realized_go": false,
+      "match": true
+    },
+    {
+      "workload": "math",
+      "n": 200,
+      "g": 1.5185716288548001,
+      "w": 0.195,
+      "C_w": 2.6497653687823535,
+      "C_w_max": 1.7512125446728914,
+      "predicted_go": false,
+      "realized_go": false,
+      "match": true
+    }
+  ]
+}

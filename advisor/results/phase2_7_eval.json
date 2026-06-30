@@ -1,0 +1,78 @@
+{
+  "date": "2026-06-29",
+  "model_B": "gpt-4o-mini",
+  "B_price": {
+    "input": 0.15,
+    "output": 0.6
+  },
+  "H1": {
+    "ce_n": 28,
+    "b_correct_on_ce": 6,
+    "recall": 0.21428571428571427,
+    "ci95": [
+      0.10212321701189421,
+      0.39538947079273873
+    ],
+    "plateau": 0.21
+  },
+  "H2": {
+    "majority_disagree_rate": 0.3691683569979716,
+    "minority_disagree_rate": 0.7857142857142857,
+    "overall_escalation_rate": 0.42857142857142855,
+    "precision": 0.09166666666666666
+  },
+  "H3": [
+    {
+      "workload": "gsm8k",
+      "n": 120,
+      "g": 1.7215436858595525,
+      "C_w": 1.0999190434674304,
+      "C_w_max": 12.573779424585878,
+      "escalation_rate": 0.21666666666666667,
+      "gated_acc": 0.9583333333333334,
+      "frontier_acc": 0.9583333333333334,
+      "predicted_go": true,
+      "realized_go": true,
+      "match": true
+    },
+    {
+      "workload": "arc_challenge",
+      "n": 120,
+      "g": 2.471562949221896,
+      "C_w": 1.1490008688097306,
+      "C_w_max": 8.930965826817262,
+      "escalation_rate": 0.09166666666666666,
+      "gated_acc": 0.9666666666666667,
+      "frontier_acc": 0.9416666666666667,
+      "predicted_go": true,
+      "realized_go": true,
+      "match": true
+    },
+    {
+      "workload": "squad",
+      "n": 120,
+      "g": 2.557649880161201,
+      "C_w": 0.9985632183908045,
+      "C_w_max": 4.567620530012772,
+      "escalation_rate": 0.25,
+      "gated_acc": 0.9083333333333333,
+      "frontier_acc": 0.8666666666666667,
+      "predicted_go": true,
+      "realized_go": true,
+      "match": true
+    },
+    {
+      "workload": "math",
+      "n": 200,
+      "g": 4.434766144384467,
+      "C_w": 2.6497653687823535,
+      "C_w_max": 3.971840855266243,
+      "escalation_rate": 0.865,
+      "gated_acc": 0.92,
+      "frontier_acc": 0.91,
+      "predicted_go": true,
+      "realized_go": false,
+      "match": false
+    }
+  ]
+}

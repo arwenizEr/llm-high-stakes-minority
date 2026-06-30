@@ -1,0 +1,173 @@
+{
+  "config": {
+    "model": "claude-haiku-4-5",
+    "granularity": "sentence",
+    "rates": [
+      0.2,
+      0.3,
+      0.5
+    ],
+    "features": [
+      "intrinsic_ppl",
+      "position",
+      "n_words",
+      "q_overlap"
+    ]
+  },
+  "classifier_metrics": {
+    "test_accuracy": 0.7801047120418848,
+    "load_bearing_recall": 0.07142857142857142,
+    "confusion_matrix_labels": [
+      "droppable(0)",
+      "load_bearing(1)"
+    ],
+    "confusion_matrix": [
+      [
+        295,
+        45
+      ],
+      [
+        39,
+        3
+      ]
+    ],
+    "n_train_spans": 730,
+    "n_test_spans": 382,
+    "class_balance_load_bearing": 0.09982014388489209
+  },
+  "none": {
+    "accuracy": 0.7666666666666667,
+    "mean_input_tokens": 1570.25,
+    "rate": 0.0,
+    "n": 60
+  },
+  "baseline_curves": {
+    "random_drop": [
+      {
+        "accuracy": 0.7666666666666667,
+        "mean_input_tokens": 1570.25,
+        "rate": 0.0,
+        "n": 60
+      },
+      {
+        "accuracy": 0.65,
+        "mean_input_tokens": 1238.9166666666667,
+        "rate": 0.2,
+        "n": 60
+      },
+      {
+        "accuracy": 0.6333333333333333,
+        "mean_input_tokens": 1090.95,
+        "rate": 0.3,
+        "n": 60
+      },
+      {
+        "accuracy": 0.5166666666666667,
+        "mean_input_tokens": 802.65,
+        "rate": 0.5,
+        "n": 60
+      }
+    ],
+    "stopword_drop": [
+      {
+        "accuracy": 0.7666666666666667,
+        "mean_input_tokens": 1570.25,
+        "rate": 0.0,
+        "n": 60
+      },
+      {
+        "accuracy": 0.8166666666666667,
+        "mean_input_tokens": 1335.1,
+        "rate": 0.2,
+        "n": 60
+      },
+      {
+        "accuracy": 0.7833333333333333,
+        "mean_input_tokens": 1237.6833333333334,
+        "rate": 0.3,
+        "n": 60
+      },
+      {
+        "accuracy": 0.6,
+        "mean_input_tokens": 934.45,
+        "rate": 0.5,
+        "n": 60
+      }
+    ],
+    "llmlingua2": [
+      {
+        "accuracy": 0.7666666666666667,
+        "mean_input_tokens": 1570.25,
+        "rate": 0.0,
+        "n": 60
+      },
+      {
+        "accuracy": 0.75,
+        "mean_input_tokens": 1293.4,
+        "rate": 0.2,
+        "n": 60
+      },
+      {
+        "accuracy": 0.7333333333333333,
+        "mean_input_tokens": 1134.65,
+        "rate": 0.3,
+        "n": 60
+      },
+      {
+        "accuracy": 0.6833333333333333,
+        "mean_input_tokens": 844.7166666666667,
+        "rate": 0.5,
+        "n": 60
+      }
+    ]
+  },
+  "downstream_curve": [
+    {
+      "accuracy": 0.7666666666666667,
+      "mean_input_tokens": 1570.25,
+      "rate": 0.0,
+      "n": 60
+    },
+    {
+      "accuracy": 0.6833333333333333,
+      "mean_input_tokens": 1260.85,
+      "rate": 0.2,
+      "n": 60
+    },
+    {
+      "accuracy": 0.65,
+      "mean_input_tokens": 1124.2,
+      "rate": 0.3,
+      "n": 60
+    },
+    {
+      "accuracy": 0.55,
+      "mean_input_tokens": 843.3333333333334,
+      "rate": 0.5,
+      "n": 60
+    }
+  ],
+  "headline_vs_llmlingua": [
+    {
+      "rate": 0.2,
+      "ds_tokens": 1260.85,
+      "ds_acc": 0.6833333333333333,
+      "llmlingua_acc_at_matched_tokens": 0.7465826771653543,
+      "acc_gain_vs_llmlingua": -0.06324934383202097
+    },
+    {
+      "rate": 0.3,
+      "ds_tokens": 1124.2,
+      "ds_acc": 0.65,
+      "llmlingua_acc_at_matched_tokens": 0.7315311949107074,
+      "acc_gain_vs_llmlingua": -0.08153119491070737
+    },
+    {
+      "rate": 0.5,
+      "ds_tokens": 843.3333333333334,
+      "ds_acc": 0.55,
+      "llmlingua_acc_at_matched_tokens": 0.6833333333333333,
+      "acc_gain_vs_llmlingua": -0.1333333333333333
+    }
+  ]
+}

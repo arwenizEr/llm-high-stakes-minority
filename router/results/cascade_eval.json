@@ -1,0 +1,91 @@
+{
+  "stopped_at": "ceiling_check",
+  "reason": "oracle cascade (555 tok) does not beat oracle router (319-543 tok); cascade pays low pass first then full high on escalation - structurally dominated",
+  "config": {
+    "model": "claude-sonnet-4-6",
+    "n_low_samples_planned": 3,
+    "trigger": "escalate if <2/3 agreement or <2 valid answers",
+    "parts_C_D": "NOT RUN per stop rule",
+    "added_spend_usd": 0.0
+  },
+  "oracle_cascade": {
+    "all200": {
+      "accuracy": 0.93,
+      "mean_output_tokens": 554.55,
+      "escalation_rate": 0.145,
+      "n": 200
+    },
+    "test60": {
+      "accuracy": 0.9333333333333333,
+      "mean_output_tokens": 1131.4166666666667,
+      "escalation_rate": 0.15,
+      "n": 60
+    }
+  },
+  "oracle_router": {
+    "all200": {
+      "accuracy": 0.945,
+      "mean_output_tokens": 318.52
+    },
+    "test60": {
+      "accuracy": 0.933,
+      "mean_output_tokens": 543.0
+    }
+  },
+  "baselines_test": {
+    "low": {
+      "accuracy": 0.85,
+      "mean_output_tokens": 498.6333333333333,
+      "n": 60,
+      "budget_histogram": {
+        "low": 60,
+        "medium": 0,
+        "high": 0
+      }
+    },
+    "medium": {
+      "accuracy": 0.9,
+      "mean_output_tokens": 923.1333333333333,
+      "n": 60,
+      "budget_histogram": {
+        "low": 0,
+        "medium": 60,
+        "high": 0
+      }
+    },
+    "high": {
+      "accuracy": 0.9166666666666666,
+      "mean_output_tokens": 1171.3,
+      "n": 60,
+      "budget_histogram": {
+        "low": 0,
+        "medium": 0,
+        "high": 60
+      }
+    }
+  },
+  "routers_test": {
+    "heuristic_plus_level": {
+      "accuracy": 0.9166666666666666,
+      "mean_output_tokens": 913.65,
+      "n": 60,
+      "budget_histogram": {
+        "low": 26,
+        "medium": 11,
+        "high": 23
+      }
+    },
+    "heuristic_text_only": {
+      "accuracy": 0.85,
+      "mean_output_tokens": 727.3333333333334,
+      "n": 60,
+      "budget_histogram": {
+        "low": 56,
+        "medium": 4,
+        "high": 0
+      }
+    }
+  },
+  "heuristic_win_survives_without_level": false,
+  "total_spend_usd": 5.399006999999997
+}
